@@ -9,13 +9,17 @@ public class Maximum {
         int c = in.nextInt();
 
         //comparison
-        int max = a;
+      /*  int max = a;
         if (b > max) {
             max = b;
         }
         if (c > max) {
             max = c;
         }
+        System.out.println(max); */
+        //using math.max
+
+        int max = Math.max(c,  Math.max(a, b));
         System.out.println(max);
     }
 }
