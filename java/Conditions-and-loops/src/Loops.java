@@ -10,6 +10,16 @@ public class Loops {
         for (int i = 1; i <= n; i++) {
             System.out.print( i+ " ");
         }
-
+        int hum = 1;
+        while(hum<=100) {
+            System.out.println(hum);
+            hum++;
+        }
     }
+
 }
+
+
+
+
+
