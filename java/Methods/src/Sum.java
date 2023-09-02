@@ -2,8 +2,11 @@ import java.util.Scanner;
 
 public class Sum {
     public static void main(String[] args) {
-       int x = sum2(122, 122);
-        System.out.println(x);
+       Scanner in = new Scanner(System.in);
+       int num4 = in.nextInt();
+       int num5 = in.nextInt();
+       int ans = sum2(num4, num5);
+        System.out.println(ans);
     }
     /*
     return_type name () {
