@@ -12,5 +12,9 @@ public class Main {
         int[] roll3; // declaration , getting defined into stack memory.
         roll3 = new int[5]; // initialisation, here object is being created in the heap memory.
         System.out.println(roll3[1]);
+
+        String[] k = new String[4];
+        System.out.println(k[2]);
+
     }
 }
