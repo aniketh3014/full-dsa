@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Input {
@@ -8,8 +9,11 @@ public class Input {
             arr[i] = in.nextInt();
         }
         for (int j : arr) {
-            System.out.print(j + " "); // here mun represents the elements of the array
+            System.out.println(j + " "); // here mun represents the elements of the array
         }
+
+        // easy and the best way to print an array
+        System.out.println(Arrays.toString(arr));
 
     }
 }
