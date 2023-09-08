@@ -15,11 +15,16 @@ public class Multidimentional {
                 arr[row][col] = in.nextInt();
             }
         }
-        for (int row = 0; row < arr.length; row++) {
+        // printing the arary
+        /*for (int row = 0; row < arr.length; row++) {
             for (int col = 0; col < arr[row].length; col++) {
                 System.out.print(arr[row][col] + " ");
             }
             System.out.println();
+        }*/
+        // with enhanced for loop
+        for (int[] a : arr) {
+            System.out.println(Arrays.toString(a));
         }
     }
 }
