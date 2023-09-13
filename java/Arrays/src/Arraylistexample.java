@@ -7,6 +7,9 @@ public class Arraylistexample {
         list.add(654);
         list.add(8748);
         list.add(867);
+        System.out.println(list.contains(654));
+        list.set(0, 100);
         System.out.println(list);
+
     }
 }
