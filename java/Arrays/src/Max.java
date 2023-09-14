@@ -6,6 +6,13 @@ public class Max {
 
     // finding a maximum value in a range
     static int maxinRange(int[] arr, int start, int end) {
+
+        if (end > start) {
+            return -1;
+        }
+        if (arr == null) {
+            return -1;
+        }
         int maxval = arr[start];
         for (int i = 0; i <= end; i++) {
             if (arr[i] > maxval) {
