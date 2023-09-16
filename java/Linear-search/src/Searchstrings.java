@@ -1,8 +1,11 @@
+import java.util.Arrays;
+
 public class Searchstrings {
     public static void main(String[] args) {
         String name = "aniket";
         char target = 'x';
         System.out.println(search2(name, target));
+        System.out.println(Arrays.toString(name.toCharArray())); // printing out a sting as an array
     }
 
     static boolean search1(String str, char target) {
