@@ -9,7 +9,7 @@ public class searchIn2Darray {
                 {77, 88, 99, 10}
         };
         int target = 23;
-        int[] ans = search(arr, target);
+        int[] ans = search(arr, target); // returns the row and col index of the element
         System.out.println(Arrays.toString(ans));
     }
 
