@@ -8,7 +8,7 @@ public class searchIn2Darray {
                 {11, 12, 13, 14},
                 {77, 88, 99, 10}
         };
-        int target = 23;
+        int target = 10;
         int[] ans = search(arr, target); // returns the row and col index of the element
         System.out.println(Arrays.toString(ans));
     }

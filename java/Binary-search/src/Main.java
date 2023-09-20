@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         int[] arr = {-2, -1, 2, 4, 5, 10, 12};
-        int target = 5;
+        int target = 4;
         System.out.println(binarySearch(arr, target));
     }
     static int binarySearch(int[] arr, int target) {
