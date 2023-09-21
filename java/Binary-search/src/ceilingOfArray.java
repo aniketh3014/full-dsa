@@ -6,6 +6,9 @@ public class ceilingOfArray {
         System.out.println(arr[ans]);
     }
     static int ceiling(int[] arr, int target) {
+        if (target > arr[arr.length-1]) {
+            return -1;
+        }
         int start = 0;
         int end = arr.length - 1;
         while (start <= end) {
