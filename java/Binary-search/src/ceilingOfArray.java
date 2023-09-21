@@ -2,7 +2,8 @@ public class ceilingOfArray {
     public static void main(String[] args) {
         int[] arr = {1, 2, 234, 453, 555, 666};
         int target = 450;
-        System.out.println(ceiling(arr, target));
+        int ans = ceiling(arr, target);
+        System.out.println(arr[ans]);
     }
     static int ceiling(int[] arr, int target) {
         int start = 0;
@@ -15,7 +16,9 @@ public class ceilingOfArray {
             else if (target > arr[mid]) {
                 start = mid + 1;
             }
-            else {return mid;}
+            else {
+                return mid;
+            }
         }
         return start;
     }
