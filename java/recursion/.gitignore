@@ -28,6 +28,6 @@ bin/
 ### Mac OS ###
 .DS_Store
 recursion.iml
-.idea
+./idea/
 
-recursion.iml
+./out/
